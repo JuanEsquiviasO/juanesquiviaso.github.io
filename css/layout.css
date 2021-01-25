@@ -129,7 +129,7 @@ header .social li a .fa-github:hover {
 } */
 header .social li a .skypeShare {
  margin: -5px;
- background-color: transparent;
+ background-color: ; 
 }
 
 /* .skypeShare {
