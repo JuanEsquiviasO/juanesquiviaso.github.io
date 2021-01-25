@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="es"> <!--<![endif]-->
 <head>
 
    <!--- Basic Page Needs
    ================================================== -->
-   <meta charset="utf-8">
+  <meta charset="utf-8">
 	<title>Juan Esquivias | Consultor SEO Lima - Perú | Posicionamiento Web SEO</title>
 	<meta name="description" content="Consultor SEO - Perú, enfocado en posicionamiento web orgánico. Aumenta la visibilidad de tu negocio en Google.  Optimiza tu presencia digital. ¡Contáctame!">
 	<meta name="author" content="">
@@ -18,13 +18,43 @@
 	<!-- CSS
     ================================================== -->
    <link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">
+	 <link rel="stylesheet" href="css/layout.css">
    <link rel="stylesheet" href="css/media-queries.css">
    <link rel="stylesheet" href="css/magnific-popup.css">
 
    <!-- Script
    ================================================== -->
-	<script src="js/modernizr.js"></script>
+   <script src="js/modernizr.js"></script>
+   
+   <script>
+		// Place this code in the head section of your HTML file 
+		(function(r, d, s) {
+			r.loadSkypeWebSdkAsync = r.loadSkypeWebSdkAsync || function(p) {
+				var js, sjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(p.id)) { return; }
+				js = d.createElement(s);
+				js.id = p.id;
+				js.src = p.scriptToLoad;
+				js.onload = p.callback
+				sjs.parentNode.insertBefore(js, sjs);
+			};
+			var p = {
+				scriptToLoad: 'https://swx.cdn.skype.com/shared/v/latest/skypewebsdk.js',
+				id: 'skype_web_sdk'
+			};
+			r.loadSkypeWebSdkAsync(p);
+		})(window, document, 'script');
+	</script>
+		
+	<!-- Add class skype-share and data-style attribute with value (large, small, circle, square) to get the default button style -->
+	<!-- Additional attributes: data-lang='en-US' (for language) data-href='' (use '' for page URL, 'www.skype.com' for specific URL) -->
+	<!-- data-text = 'some message' (to pre-fill the message to that will be shared by the user, use '' to prompt user to enter a message) -->
+	<!-- Place the code of the share button where you what the share button to appear -->
+
+	<!-- <div tabindex='0' onKeydown='skypeShareKeyDownHandler(event)' class='skype-share' data-href='https://juanesquiviaso.github.io/' data-lang='' data-text='' data-style='circle' ></div> -->
+
+
+   
 
    <!-- Favicons
 	================================================== -->
@@ -69,10 +99,11 @@
                <li><a href="https://pe.linkedin.com/in/juanesquivias" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                <li><a href="https://twitter.com/JuanEsquiviasO" target="_blank"><i class="fa fa-twitter"></i></a></li>
                <li><a href="https://github.com/JuanEsquiviasO" target="_blank"><i class="fa fa-github"></i></a></li>
-               <li><a href="https://www.facebook.com/mediaignite.net" target="_blank"><i class="fa fa-facebook"></i></a></li>
-               <li><a href="https://plus.google.com/u/0/+JuanCarlosEsquiviasOtazu" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+               <!-- <li><a href="https://www.facebook.com/mediaignite.net" target="_blank"><i class="fa fa-facebook"></i></a></li> -->
+               <!-- <li><a href="https://plus.google.com/u/0/+JuanCarlosEsquiviasOtazu" target="_blank"><i class="fa fa-google-plus"></i></a></li> -->
                <!-- <li><a href="#"><i class="fa fa-dribbble"></i></a></li> -->
-               <li><a href="#"><i class="fa fa-skype"></i></a></li>
+							 <!-- <li><a href="#"><i class="fa fa-skype"></i></a></li> -->
+							 <li><a tabindex='0' onKeydown='skypeShareKeyDownHandler(event)' class='skype-share' data-href='https://juanesquiviaso.github.io/' data-lang='' data-text='' data-style='circle'></a></li>
             </ul>
          </div>
       </div>
