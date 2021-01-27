@@ -19,7 +19,7 @@
 ===================================================================== */
 
 /* ------------------------------------------------------------------ */
-/* a. General Styles
+/* a. General Stylesskill
 /* ------------------------------------------------------------------ */
 
 body { background: #0f0f0f; }
@@ -392,14 +392,14 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: seo 2s ease;
 }
 .git {
-  	width: 79%;
+  	width: 85%;
   	-moz-animation: git 2s ease;
   	-webkit-animation: git 2s ease;
 }
-.socialmedia {
-  	width: 95%;
-  	-moz-animation: socialmedia 2s ease;
-  	-webkit-animation: socialmedia 2s ease;
+.webaccessibility {
+  	width: 75%;
+  	-moz-animation: webaccessibility 2s ease;
+  	-webkit-animation: webaccessibility 2s ease;
 }
 .css {
   	width: 90%;
@@ -431,6 +431,21 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
 }
+.ux {
+	width: 50%;
+	-moz-animation: ux 2s ease;
+	-webkit-animation: ux 2s ease;
+}
+.ui {
+	width: 70%;
+	-moz-animation: ui 2s ease;
+	-webkit-animation: ui 2s ease;
+}
+.figma {
+	width: 60%;
+	-moz-animation: figma 2s ease;
+	-webkit-animation: figma 2s ease;
+}
 
 @-moz-keyframes seo {
   0%   { width: 0px;  }
@@ -440,7 +455,7 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 55%;  }
 }
-@-moz-keyframes socialmedia {
+@-moz-keyframes webaccessibility {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
@@ -464,6 +479,18 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
+@-moz-keyframes ux {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
+}
+@-moz-keyframes ui {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+@-moz-keyframes figma {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
 
 @-webkit-keyframes seo {
   0%   { width: 0px;  }
@@ -473,7 +500,7 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 55%;  }
 }
-@-webkit-keyframes socialmedia {
+@-webkit-keyframes webaccessibility {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
@@ -496,6 +523,18 @@ ul#nav li.current a { color: #F06000; }
 @-webkit-keyframes photoshop {
   0%   { width: 0px;  }
   100% { width: 50%;  }
+}
+@-webkit-keyframes ux {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
+}
+@-webkit-keyframes ui {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+@-webkit-keyframes figma {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
 }
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
