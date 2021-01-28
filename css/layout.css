@@ -134,9 +134,12 @@ header .social li a .fa-google-plus:hover {
 header .social li a .fa-github:hover {
  color:#111
 }
-/* header .social li a .fa-skype:hover {
- color:#15ADF0
-} */
+header .social li a .fa-whatsapp:hover {
+ color:#25D366
+}
+header .social li a .fa-telegram:hover {
+   color:#25D366
+  }
 header .social li a .skypeShare {
  margin: -5px;
  background-color: ; 
@@ -1122,6 +1125,12 @@ footer .social-links li a .fa-google-plus {
 }
 footer .social-links li a .fa-github {
  color:#4078C0
+}
+footer .social-links li a .fa-whatsapp {
+   color:#25D366
+}
+footer .social-links li a .fa-telegram {
+   color:#25D366
 }
 footer .social-links li a .fa-skype {
  color:#11ABB0
