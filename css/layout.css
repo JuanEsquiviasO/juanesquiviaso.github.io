@@ -24,20 +24,80 @@
 
 body { background: #0f0f0f; }
 
+/** 
+ * ===================================================================
+ * common styles 
+ *
+ * ------------------------------------------------------------------- 
+ */
+
+ .section-intro {
+	max-width: 700px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5.2rem;
+   position: relative;
+ }
+ .section-intro h1 {
+	font-family: "merriweather-bold", serif;
+	font-size: 4.8rem;
+	color: #252525;
+	line-height: 1.25;
+   margin-bottom: 1.2rem;
+ }
+ .section-intro h5 {
+	color: rgba(56, 66, 78, 0.5);
+	font-size: 1.6rem;
+	line-height: 1.875;
+	margin-bottom: 0.3rem;
+	letter-spacing: .4rem;
+}
+.section-intro .lead {
+	color: rgba(0, 0, 0, 0.45);
+}
+.section-intro .with-bottom-line {
+	position: relative;
+	overflow: hidden;
+}
+.section-intro .with-bottom-line::after {
+	display: block;
+	background-color: #C22E41;
+	width: 120px;
+	height: 3px;
+	content: '\0020';
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	margin-left: -60px;
+}
+@media only screen and (max-width:600px) {
+	section .h01 {
+		font-size: 2.5rem;
+	}
+}
+
+
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
 
 header {
    position: relative;
-   height: 800px;
-   min-height: 500px;
+   /* height: 800px; */
+   min-height: 1000px;
    width: 100%;
    background: #161415 url(../images/header-background.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
+}
+
+header .row {
+	width: auto;
+	/* height: 66px; */
+	position: relative;
 }
 
 /* vertically center banner section */
@@ -237,7 +297,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: #c22e41; }
 
 
 /* ------------------------------------------------------------------ */
@@ -1163,4 +1223,4 @@ footer .social-links li a .fa-skype {
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #0F9095; }
+#go-top a:hover { background-color: #C22E41; }
