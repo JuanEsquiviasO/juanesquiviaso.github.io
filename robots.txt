@@ -1,0 +1,10 @@
+User-Agent: *
+Disallow: 
+Disallow: /styles.html
+Disallow: /whatsapp.html
+Disallow: /sendEmail.php
+Disallow: /inc
+Disallow: /js
+Disallow: /css
+
+Sitemap: https://juanesquiviaso.github.io/sitemap.xml
